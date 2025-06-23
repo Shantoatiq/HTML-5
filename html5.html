@@ -1,0 +1,121 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Profile">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    img {
+      max-width: 200px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>👨‍💻 My Personal Web Profile</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is <strong>Atiq Shanto</strong>. I'm a passionate <em>Web Developer</em> and a lifelong learner.</p>
+    <img src="https://via.placeholder.com/200" alt="My Photo">
+    <blockquote cite="https://en.wikipedia.org/wiki/Programming">
+      "Programming isn't about what you know; it's about what you can figure out." – Chris Pine
+    </blockquote>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML <progress value="90" max="100"></progress></li>
+      <li>CSS <progress value="80" max="100"></progress></li>
+      <li>JavaScript <progress value="70" max="100"></progress></li>
+    </ul>
+
+    <h3>Skills Table</h3>
+    <table>
+      <thead>
+        <tr><th>Skill</th><th>Level</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>HTML</td><td>Advanced</td></tr>
+        <tr><td>CSS</td><td>Intermediate</td></tr>
+        <tr><td>JavaScript</td><td>Intermediate</td></tr>
+      </tbody>
+    </table>
+
+    <h3>My Introduction Video</h3>
+    <video width="320" controls>
+      <source src="sample.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <fieldset>
+        <legend>Your Info</legend>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color"><br><br>
+
+        <button type="submit">Send</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <section>
+    <details>
+      <summary>Want to know a secret?</summary>
+      <p>I love coding at night 🌙</p>
+    </details>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Atiq Shanto | Made with ❤️ using HTML5</p>
+</footer>
+
+</body>
+</html>
